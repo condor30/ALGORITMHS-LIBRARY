@@ -3,10 +3,11 @@
 АЛГОРИТМИЧЕСКАЯ И МАТЕМАТИЧЕСКАЯ БИБЛИОТЕКА НА PYTHON
 
 Для работы необходимо установить:
+
 PYTHON 3 
 библиотека Python Tkinter
-After installing Python/Python3, Tkinter is to be installed which can be done by following the command below:
 
+После установки Python/Python3 необходимо установить Tkinter, что можно сделать, выполнив следующую команду:
 For python:
                     	
-                      sudo apt-get install python-tk
+                      pip install tk
