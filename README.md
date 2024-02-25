@@ -1,20 +1,45 @@
-# ALGORITMHS-LIBRARY
+# ALGOLIB
 
-АЛГОРИТМИЧЕСКАЯ И МАТЕМАТИЧЕСКАЯ БИБЛИОТЕКА НА PYTHON
+ALGOLIB is a simple python application for managing algorithms. It provides a user interface for viewing, adding, modifying, and deleting algorithms.
 
-Для работы необходимо установить:
+## Features
 
-- PYTHON / PYTHON 3
-- библиотека Python Tkinter
+- User Mode: View a list of algorithms and their details.
+- Admin Mode: Access administrative features like changing passwords, adding, modifying, and deleting algorithms.
+- Dark Mode: A stylish dark mode for comfortable use.
+- Responsive Design: The application is designed to be responsive with grid configurations.
 
-Загрузите приложение Python на официальной странице:
+## Getting Started
 
-                      https://www.python.org/downloads/windows/
-                      
-После установки Python/Python3 необходимо установить Tkinter, что можно сделать, выполнив следующую команду:
-For python:
-                    	
-                      pip install tk
-Код Python приложения предоставляется для справки с комментариями, объясняющими функции и компоненты пользовательского интерфейса. Для создания графического интерфейса он использует библиотеку Tkinter.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/algolib.git
+   cd algolib
 
-Этот пример приложения — полезный инструмент для студентов-компьютерщиков и энтузиастов алгоритмов, которые хотят узнать о различных математических алгоритмах и их реализации на.
+2. **Install Dependencies:**
+   ```bash
+   pip install customtkinter
+
+3. **Run the Application:**
+   ```bash
+   python main.py
+
+Usage
+Upon running the application, you will be prompted to choose between User and Admin modes.
+In User Mode, you can search for algorithms, view their details, and switch to Admin Mode.
+In Admin Mode, you can change the password, add, modify, or delete algorithms.
+
+
+Contributing
+If you would like to contribute to this project, please follow these guidelines:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Commit your changes.
+Push to your fork and submit a pull request.
+
+License
+This project is licensed under the MIT License
+
+Acknowledgements
+This project uses the customtkinter library for creating custom-styled Tkinter widgets.
